@@ -1,1 +1,1 @@
-It is an demo URL-shorting Webpage that Include the encoding, decoding and redirecting of URL. As a result you have to convert long URL into Short URL.
+It is an demo URL-shorting Webpage that Include the encoding, decoding and redirecting of URL. As a result you have to convert long URL into Short URL. You can run these webpage with the feature called "Go Live" in ypur editor.
