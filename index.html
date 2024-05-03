@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color:rgb(240, 236, 230);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgb(54, 54, 54);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgba(255, 5, 5, 0.863);
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-style: oblique;
+        }
+
+        input[type="text"] {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        #shortenedURL {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+            #shortenedURL a {
+    color: #007bff;
+    text-decoration: none;
+        }
+
+        #shortenedURL a:hover {
+            text-decoration: underline;
+        }
+        p{
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: inherit;
+        }
+ </style>
+</head>
+<body>
+    <div class="container">
+        <h1>URL Shortener</h1>
+        <p>Like compressing a novel into a tweet, shortening URLs condenses vast web addresses into bite-sized links for swift sharing.</p>
+        <form id="shortenForm">
+            <input type="text" id="longURL" placeholder="Enter your long URL here" required>
+            <input type="submit" value="Shorten URL">
+        </form>
+        <div id="shortenedURL"></div> 
+    </div>
+<script src="script.js"></script>    
+
+</body>
+</html>
